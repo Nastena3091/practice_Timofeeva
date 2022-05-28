@@ -74,13 +74,10 @@
     font-size: 48px;
     color: #735440;
     font-weight: 700;
-    
 }
-.logo {
-    padding-left:20%;
-    top:20px;
-    max-width: 100%;
-    max-height: 100%;
+a{
+    text-decoration: none;
+    color: #324950;
 }
 .main {
     color: #324950;

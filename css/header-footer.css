@@ -9,6 +9,12 @@
     align-self: flex-end;
     
 }
+.logo {
+    padding-left:20%;
+    top:20px;
+    max-width: 100%;
+    max-height: 100%;
+}
 .search hr{
     color: #324950;
     background-color: #324950;
@@ -85,7 +91,7 @@
 .flex-item4 {
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 50%;
     word-spacing: 10px;
 }
 .footer {
