@@ -25,7 +25,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
 
 .head {
-    background-image: url(/practice_Timofeeva/images/bg.png);
+    background-image: url(../images/bg.png);
     max-width: 100%;
     background-size: cover;
     width: 100%;
@@ -157,7 +157,7 @@
     width: 1920px;
     align-items: center;
     flex-direction: column;
-    background-image: url(/practice_Timofeeva/images/background.png);
+    background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-position: 0 100px;
 }
