@@ -24,11 +24,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
 .header {
-    background-color: #FFFFFF;
-    padding-bottom: 20px;
-    -webkit-box-shadow: 0px 12px 14px 1px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 0px 12px 14px 1px rgba(34, 60, 80, 0.2);
-    box-shadow: 0px 12px 14px 1px rgba(34, 60, 80, 0.2);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 14px 16px -5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 0px 14px 16px -5px rgba(0,0,0,0);
 }
 
 .conteiner2 {
