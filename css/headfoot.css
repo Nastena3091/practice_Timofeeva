@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+body {
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    color: #324950;
+    background-color: #EDEDED;
+}
+
+h1, h2, h3 {
+    font-family: 'Robolo Slab';
+    font-weight: 700;
+}
+
+input:focus, button:focus, textarea:focus {
+    outline: none;
+
+}
+
+.menu {
+    padding-top: 50px;
+}
+header {
+    padding-top: 19px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.redText {
+    color: #CF2333;
+    font-weight: normal;
+}
+
+.logo img {
+    height: 100px;
+    transition: 0.4s linear;
+}
+
+.menu__item {
+    margin: 0 10px;
+    
+}
+
+.menu__item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #324950;
+    font-weight: 600;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.closeMenu {
+    display: none;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.burgerMenu {
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    padding-top: 10px;
+
+}
+
+
+
+.menuUp {
+    display: block;
+}
+
+.burger-line{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 35px;
+    height: 3px;
+    background-color: #324950;
+    transition: 0.5s all;
+    visibility: hidden;
+}
+.second, .third{
+    top: 18px;
+}
+
+.fourth{
+    top: 28px;
+}
+
+.hided {
+    visibility: hidden;
+}
+
+.active {
+    z-index: 3;
+    position: absolute;
+    background-color: #324950; 
+    width: 90%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.active a {
+    color: #fff;
+    padding-right: 5%;
+}
+
+.active li {
+    padding-bottom: 30px;
+}
+
+.active .openMenu {
+    display: none;
+}
+
+
+.search {
+    border: 1px;
+    float: right;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.search input::placeholder{
+    color:#324950;
+    font-style: bold;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.search input[type=text] {
+    font-size: 17px;
+    border: none;
+    float: left;
+    background: transparent;
+    height: 27px;
+    border-bottom: 1px solid #324950;
+  }
+
+.search button{
+    border: none;
+    outline: none;
+    appearance: none;
+    background: none;
+    float: left;
+    border-bottom: 1px solid #324950;
+    padding-bottom: 4px;
+}
+
+  .search img {
+      margin-top: -5px;
+  }
+
+
+
+.footerFirst {
+    background-color: #2D3F45;
+    padding-top: 5px;
+}
+
+.footerFirst .row {
+    margin-top: 10px;
+}
+
+.footer_item {
+    margin: 0 13px;
+    margin-top: 5px;
+}
+
+.footer_item a {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s linear;
+    text-decoration: none;
+}
+.footer_link a{
+    margin: 0 13px;
+    transition: 0.4s linear;
+}
+
+.greenText {
+    color: #57984C;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #324950;
+    color: #B9B9B9;
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding: 10px 0;
+}
+footer li{
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width: 1060px){
+    .footer_link {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 991px){
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .search {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .menu__item {
+        margin-top: -25px;
+    }
+
+    .footer_item {
+        margin: 0 5px;
+    }
+    .footer_link {
+        margin-bottom: 15px;
+    }
+    .openMenu {
+        visibility: visible;
+    }
+    .menuUp {
+        display: none;
+    }
+    .hided {
+        visibility: visible;
+    }
+    .burger-line{
+        visibility: visible;
+    }
+
+
+}
+@media (max-width: 767px){
+    .menu__item a {
+        font-size: 16px;
+    }
+    .menu__itemm {
+        margin: 0 5px;
+    }
+    .footer_item a {
+        font-size: 14px;
+    }
+    .footer_menu {
+        display: block;
+        margin-left: -20px;
+        text-align: center;
+        }
+    .search {
+        margin-bottom: 15px;
+    }
+    .active a {
+        padding-right: 5%;
+    }
+}
+@media (max-width: 575px){
+    .burgerMenu {
+        margin-right: 25px;
+    }
+    
+}
+@media (max-width: 375px){
+    .burgerMenu {
+        margin-right: 25px;
+    }
+    .search input {
+        width: 70%;
+        margin-left: 40px;
+    }
+    .active a {
+        padding-right: 20%;
+    }
+}

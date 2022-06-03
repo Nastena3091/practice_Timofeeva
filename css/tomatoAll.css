@@ -1,0 +1,148 @@
+*, p, h1, h2{
+    font-family: 'Roboto Slab', sans-serif;
+}
+.header {
+    background-color: #fff;
+}
+.headerImg {
+    background-image: url(../images/tomatoAll/bgTomatoAll.png);
+    height: 480px;
+    background-position: center;
+}
+
+.visionMission .title_text {
+    font-size: 44px;
+}
+
+.visionMission {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.title_text h1{
+    font-size: 44px;
+    font-weight: 700;
+    font-style: bold;
+    color: #324950;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.description_text p{
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.borderedLeft {
+    border-left: 3px solid #EB5757;
+}
+
+.borderedLeft p b{
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: center;
+    padding: 30px 0 7px 26px;
+}
+
+.borderedLeft .borderedLeft_text {
+    margin-left: 25px;
+}
+
+
+
+#tomatoAll{
+    background-color: #FFFFFF;
+    background-image: none;
+}
+
+
+
+.Pinkback {
+    background-color: #FCF0F0;
+}
+
+hr {
+    background-color: #324950;
+}
+
+p {
+    font-size: 17px;
+}
+
+
+
+.markets_items {
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+.markets h2 {
+    font-size: 20px;
+    font-family: 'Roboto Slab', sans-serif;
+    max-width: 290px;
+}
+
+
+.markets .container {
+    background-color: #FFFFFF;
+}
+
+.products {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.products .items {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.products .item {
+    color: #57984C;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.products .item img {
+    width: 100%;
+}
+
+.products .item_text {
+    background-color: #fff;
+    padding-top: 5px;
+}
+
+.products h2 {
+    font-size: 20px;
+    font-family: 'Robolo Slab', sans-serif;
+}
+
+.products p {
+    margin-top: -5px;
+    padding-bottom: 5px;
+    font-family: 'Robolo Slab', sans-serif;
+}
+
+.products a {
+    color:#57984C;
+}
+
+
+@media (max-width: 767px){
+    .headerImg {
+        height: 240px;
+        background-position: top;
+        background-size: 300%;
+    }
+    .visionMission .title_text {
+        text-align: center;
+    }
+    .crosses {
+        display: flex;
+        justify-content: center;
+    }
+    .search {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 991px){
+
+}

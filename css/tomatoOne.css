@@ -1,0 +1,139 @@
+.tomatoOne {
+    background-image: url(../images/tomatoOne/tomatoOneBg.svg);
+    background-color: #E5E5E5;
+    padding-top: 18px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 999;
+    -webkit-box-shadow: 0px 12px 14px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 12px 14px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 12px 14px 1px rgba(34, 60, 80, 0.2);
+}
+
+.logo a img{
+    height: 80px;
+}
+
+.goBack a {
+    font-size: 14px;
+    color: #57984C;
+    text-decoration: none;
+    transition: 0.4s linear;
+}
+
+.goBack a:hover{
+    transition: 0.4s linear;
+    color:#003207;
+}
+
+.tomatoOne .container-fluid{
+    padding: 0px;
+    width: 60%;
+}
+
+.goBack {
+    margin-bottom: 18px;
+}
+
+.goBack img {
+    margin-right: 10px;
+}
+
+.tomatoOne {
+    padding-bottom: 170px;
+}
+
+.tomatoOne .title_text h1, h2{
+    font-size: 54px;
+}
+
+.tomatoOne .title_text h2{
+    color: #57984C;
+}
+
+.qulity {
+    padding-top: 45px;
+}
+
+
+.quality_text {
+    color: #CF2333;
+    font-size: 30px; 
+}
+
+.tomatoImage {
+    margin-top: 10px;
+}
+
+.tomatoImage img {
+    width: 100%;
+}
+
+.textBlock {
+    font-size: 20px;
+}
+
+.textBlock_item {
+    margin-top: 40px;
+    line-height: 2;
+}
+
+.textBlock_item ul{
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.textBlock_item h3 {
+    font-size: 20px;
+    color: #57984C;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.textBlock_item hr {
+    background-color: #57984C;
+    
+}
+
+.textBlock_item b {
+    font-size: 20px;
+}
+
+.textBlock_item li {
+    list-style-type:disc;
+    color: #57984C;
+}
+
+.textBlock_item span, .textBlock_item p{
+    color: #324950;
+    font-size: 17px;
+}
+
+.download {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.download button {
+    background-color: transparent;
+    padding: 8px 30px;
+    border: 3px solid #57984C;
+    box-sizing: border-box;
+    border-radius: 60px;
+    transition: 0.4s linear;
+}
+
+
+.download span {
+    font-family: 'Roboto Slab';
+    padding-left: 10px;
+    color: #57984C;
+    font-weight: bold;
+    font-size: 15px;
+}
