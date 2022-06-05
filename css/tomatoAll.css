@@ -5,9 +5,10 @@
     background-color: #fff;
 }
 .headerImg {
-    background-image: url(../images/tomatoAll/bgTomatoAll.png);
+    background-image: url(../images/tomatoAll/Onion.png);
     height: 480px;
     background-position: center;
+    background-size: cover;
 }
 
 .visionMission .title_text {
@@ -55,7 +56,7 @@
 
 
 .Pinkback {
-    background-color: #FCF0F0;
+    background-color: #f0fcf0;
 }
 
 hr {

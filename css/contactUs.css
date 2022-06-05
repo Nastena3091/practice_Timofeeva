@@ -48,7 +48,7 @@
     resize: none;
 }
 
-.code_button button {
+.code_button input {
     background-color: #57984C;
     border: 0px;
     border-radius: 60px;
@@ -63,10 +63,6 @@
     
 }
 
-.code_button button:hover {
-    transition: 0.4s linear;
-    background-color: #306626;
-}
 
 .contactUs_item {
     padding-top: 20px;
@@ -97,4 +93,11 @@
 
 .address_text .line {
     padding: 20px;
+}
+.orderInfo{
+    margin-left: 15px;
+}
+
+.orderInfo p, .orderInfo h3, .orderInfo h1{
+    font-family: 'Roboto Slab', sans-serif;
 }

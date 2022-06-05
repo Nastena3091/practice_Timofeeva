@@ -1,4 +1,4 @@
-.tomatoOne {
+/* .tomatoOne {
     background-image: url(../images/tomatoOne/tomatoOneBg.svg);
     background-color: #E5E5E5;
     padding-top: 18px;
@@ -136,4 +136,163 @@
     color: #57984C;
     font-weight: bold;
     font-size: 15px;
+} */
+.tomatoOne {
+    background-image: url(../images/tomatoOne/tomatoOneBg.svg);
+    background-color: #E5E5E5;
+    padding-top: 18px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+}
+
+.header {
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 999;
+    -webkit-box-shadow: 0px 12px 14px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 12px 14px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 12px 14px 1px rgba(34, 60, 80, 0.2);
+}
+
+
+.goBack {
+    margin-bottom: 18px;
+}
+.goBack img {
+    margin-right: 10px;
+}
+.goBack a {
+    font-size: 14px;
+    color: #57984C;
+    text-decoration: none;
+    transition: 0.4s linear;
+}
+.goBack a:hover{
+    transition: 0.4s linear;
+    color:#003207;
+}
+
+
+.tomatoOne .title__text h1, h2{
+    font-size: 54px;
+    margin-left: -15px;
+}
+
+.tomatoOne .title__text h2{
+    color: #57984C;
+}
+
+
+.quality {
+    margin-left: -30px;
+}
+
+.quality__text {
+    color: #CF2333;
+    font-size: 30px; 
+}
+
+.tomatoImage {
+    margin-top: 10px;
+}
+
+.tomatoImage img {
+    width: 100%;
+}
+
+.textBlock {
+    font-size: 20px;
+}
+
+.textBlock_item {
+    margin-top: 50px;
+}
+
+.textBlock_item h3 {
+    font-size: 20px;
+    color: #57984C;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.textBlock_item hr {
+    background-color: #57984C;
+    
+}
+
+.textBlock_item b {
+    font-size: 20px;
+}
+
+.textBlock_item ul {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.textBlock_item li {
+    list-style-type:disc;
+    color: #57984C;
+}
+
+.textBlock_item span {
+    color: #324950;
+}
+
+.download {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.download button {
+    background-color: transparent;
+    padding: 8px 20px;
+    border: 3px solid #57984C;
+    box-sizing: border-box;
+    border-radius: 60px;
+    transition: 0.4s linear;
+}
+
+.download button img {
+    height: 20px;
+    padding-right: 5px;
+    margin-top: -5px;
+}
+
+.download button:hover {
+    transition: 0.4s linear;
+    background-color: rgba(41, 140, 24, 0.282);
+}
+
+.download span {
+    padding-left: 10px;
+    color: #57984C;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+@media (max-width: 991px){
+    .quality {
+        text-align: center;
+    }
+    .tomatoImage img {
+        width: 100%;
+    }
+
+}
+@media (max-width: 767px){
+    .quality__text {
+        font-size: 25px;
+    }
+    .tomatoOne .title__text h1, h2{
+        font-size: 40px;
+    }
+    .textBlock_item {
+        margin-left: 20px;
+    }
+    .search {
+        margin-bottom: 20px;
+    }
 }
